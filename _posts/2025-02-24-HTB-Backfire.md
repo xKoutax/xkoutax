@@ -444,8 +444,23 @@ response = read_socket(socket_id)
 ssh-keygen
 </code></pre>
 
-<p> .</p> 
-<p> .</p> 
+<p>Complete los datos necesarios y se le proporcionará la clave pública ssh con extensión .pub. Copie la clave pública completa..</p> 
+<p>Utilice el siguiente comando para configurarlo como clave autorizada. Ejecute el siguiente comando en el shell de escucha existente para encontrar la bandera del usuario.</p> 
 
+<pre><code>
+  echo "TU PUB KEY" | tee -a ~/.ssh/authorized_keys
+</code></pre>
+
+<p>Después de la ejecución exitosa, abra una nueva terminal para abrir el puerto SSH del usuario ilya. El uso será en el puerto SSH de ilya..</p> 
+<p>Puedes encontrar un archivo txt que contiene información sobre el otro usuario “Sergej”..</p> 
+-----------
+<p>Podemos usar netstat para encontrar los puertos de escucha y de actividad en la máquina. Podemos encontrar los puertos 5000 y 7096 que son interesantes..</p> 
+
+---------------------------------------------------
+<p>Salga de la terminal actual. En el siguiente paso, utilizaremos el método Port Forwarding. Ejecute el siguiente comando en una nueva terminal..</p>
+<pre><code>
+ssh -i id_rsa ilya@10.10.x.x -L 7096:127.0.0.1:7096 -L 5000:127.0.0.1:5000
+</code></pre>
+<p>.</p> 
 </body>
 </html>
