@@ -545,5 +545,17 @@ ssh - clave raíz @backfire .htb
 </code></pre>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20234838.png?raw=true" alt="Captura de pantalla">
 <p></p>
+
+
+
+<pre><code>
+Si has llegado hasta aquí, quiero felicitarte y agradecerte. Sé que este camino en la ciberseguridad puede parecer un laberinto oscuro, especialmente cuando eres principiante. Habrá días en los que sentirás que todo te sale mal, que las piezas no encajan, pero quiero que recuerdes algo muy importante: ¡nunca estás solo en este viaje! Cuando sientas que el cansancio y la frustración te invaden, apaga tu computadora, da un paso atrás y acércate a las personas que te quieren. Conéctate con tu familia, tus amigos, quítate un poco de estrés y recarga tu energía. Luego, cuando regreses, verás cómo todo empieza a fluir como por arte de magia.
+
+No dejes que un mal día o una nube gris te haga olvidar lo increíble que eres. Si algún día te sientes demasiado triste, no dudes en escribirme. Aquí estaré, Tätsú, dispuesto a escuchar, a conversar, a apoyarte y a buscar alternativas. Podemos hablar de pentesting, de las maravillas de la ciberseguridad, o simplemente compartir un momento juntos. Lo importante es que nunca abandones tu sueño, porque recuerdo una vez haber escuchado algo que se quedó grabado en mí: "Lo único imposible es aquello que no intentas." Aunque muchos duden y se rían, lo que realmente importa es que sigas adelante, porque si tienes un sueño, nada ni nadie podrá frenarlo.
+
+La vida es un viaje lleno de sorpresas y de momentos que nos enseñan algo nuevo. A veces, no valoramos lo que tenemos, ya sea por ideologías diferentes o por la carrera que seguimos, pero quiero que tú, que estás leyendo esto, seas diferente. Valora cada momento con tu familia, con tus amigos, porque como dijo una persona muy especial que pasó por mi vida, "Disfruta del presente, porque el futuro es incierto."
+
+Si tienes un sueño, persíguelo con todo tu ser. Si quieres amar, no dudes, ama sin reservas, porque no sabes cuánto tiempo te queda para hacerlo. Atrévete a ser feliz. No pierdas la oportunidad de encontrar lo que realmente te llena, de buscar la felicidad en cada rincón de tu vida. En mi caso, he dejado ir muchas cosas, pero si pudiera hackear el tiempo, lo cambiaría. Sin embargo, la vida no funciona así, jejeje. Así que, amigo/a, haz lo que tu corazón y tu mente te dicten. Sé feliz, porque aunque soy un completo desconocido, créeme que estaré inmensamente orgulloso de ti.
+</code></pre>
 </body>
 </html>
