@@ -566,20 +566,27 @@ ssh - clave raíz @backfire .htb
             padding: 20px;
         }
         .container {
-            width: 40%; /* Ajusta el ancho de la columna */
+            width: 50%; /* Ajusta el ancho de la columna */
             max-width: 600px; /* Máximo ancho para mayor legibilidad */
             background: #1e1e1e;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
             text-align: justify;
             line-height: 1.6;
             overflow-y: auto; /* Scroll si el mensaje es largo */
             max-height: 90vh; /* Evita que ocupe toda la pantalla */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centra el contenido */
         }
         h1 {
             color: #00ffcc;
             text-align: center;
+            width: 100%;
+        }
+        p {
+            width: 100%;
         }
     </style>
 </head>
@@ -617,7 +624,7 @@ ssh - clave raíz @backfire .htb
             Atrévete a ser feliz. No pierdas la oportunidad de encontrar lo que realmente te llena, de buscar la felicidad en cada rincón de tu vida.  
         </p>
         <p>
-            En mi caso, he dejado ir muchas cosas, pero si pudiera hackear el tiempo, lo cambiaría. Sin embargo, la vida no funciona así, Tristemente. 
+            En mi caso, he dejado ir muchas cosas, pero si pudiera hackear el tiempo, lo cambiaría. Sin embargo, la vida no funciona así, tristemente. 
         </p>
         <p>
             Así que, amigo/a, <b>haz lo que tu corazón y tu mente te dicten.</b> Sé feliz, porque aunque soy un completo desconocido, <b>créeme que estaré inmensamente orgulloso de ti.</b>
