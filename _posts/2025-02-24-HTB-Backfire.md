@@ -42,7 +42,13 @@ tags:
 <h1>Acompáñame a explotar BackFiere</h1>
 
 <!-- Espacio para la foto -->
-<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-25%20021332.png?raw=true" alt="Captura de pantalla"> alt="BackFiere" />
+<div style="text-align: center; margin: 20px;">
+  <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-25%20021332.png?raw=true" 
+       alt="Captura de pantalla" 
+       style="max-width: 100%; height: auto; border-radius: 8px;" />
+  <p>BackFiere</p>
+</div>
+
 
 <p>Lo primero que debemos hacer es la fase de reconocimiento con Nmap.</p>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20205608.png?raw=true" alt="Captura de pantalla">
