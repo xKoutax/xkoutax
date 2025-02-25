@@ -7,7 +7,7 @@ tags:
   - pentesting
 ---
 
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -142,12 +142,7 @@ index 9d1c21f..59d350d 100644
 +   if err = t.Server.Engine.Run(Host+":"+Port); err != nil {
       logger.Error("Failed to start websocket: " + err.Error())
     }
-</code></pre>
-
-<!-- Espacio para scripts en Ruby -->
-<%# Código Ruby aquí %>
-<% ruby_script = "puts 'Ejecutando script en Ruby'" %>
-<%= ruby_script %>
+<pre><code>
 
 </body>
 </html>
