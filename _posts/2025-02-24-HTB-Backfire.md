@@ -516,13 +516,15 @@ print(r.text)
 . Nombre de usuario: pfapostol1
 . Contraseña: pfapostol1 </p>
 <p>Ahora podrás iniciar sesión en el sitio web.</p>
-------------------------------------------------------------------
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20225158.png?raw=true" alt="Captura de pantalla">
 <p>Navega hasta la opción de terminal y ejecuta sergej, luego ejecuta la misma shell que usamos antes y con esto tendremos acceso</p>
------------------------------------------------------------------------------------------------------------------------------------------------------
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20231303.png?raw=true" alt="Captura de pantalla">
 <p>Para manetener una concexion establa podemos hacer lo mismo que hicimos anteriormente, creamos una key publica y le damos autorizacion</p>
-------------------------------------------------------------------------------------------------------------------------------------------------------
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20232240.png?raw=true" alt="Captura de pantalla">
 <p>Busque los privilegios que tiene la función sudo habilitada. Podemos ver que iptables habilita la función sudo</p>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20232417.png?raw=true" alt="Captura de pantalla">
 <p>Podemos simplemente agregar nuestra clave pública SSH al comentario de la regla de iptables y luego reenviar la regla, incluido el comentario “malicioso”, al archivo authorized_keys.</p>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20232720.png?raw=true" alt="Captura de pantalla">
 <p>Siga los pasos a continuación</p>
 <p>Ejecute el siguiente comando y agregue su clave pública ssh.</p>
 <pre><code>
@@ -536,10 +538,12 @@ sudo /usr/sbin/iptables-save -f /root/.ssh/authorized_keys
 <pre><code>
 sudo iptables -S
 </code></pre>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20233604.png?raw=true" alt="Captura de pantalla">
 <p>A continuación, podemos acceder a la raíz de la máquina. Abrimos una nueva terminal y ejecutamos el código siguiente.</p>
 <pre><code>
 ssh - clave raíz @backfire .htb
 </code></pre>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20234838.png?raw=true" alt="Captura de pantalla">
 <p></p>
 </body>
 </html>
