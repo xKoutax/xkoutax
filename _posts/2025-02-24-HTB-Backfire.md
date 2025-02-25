@@ -552,7 +552,10 @@ ssh - clave raíz @backfire .htb
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20234838.png?raw=true" alt="Captura de pantalla">
 <p></p>
 
-<title>Mensaje de Tätsú</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensaje de Tätsú</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -566,27 +569,29 @@ ssh - clave raíz @backfire .htb
             padding: 20px;
         }
         .container {
-            width: 50%; /* Ajusta el ancho de la columna */
-            max-width: 600px; /* Máximo ancho para mayor legibilidad */
+            width: 90%;
+            max-width: 600px;
             background: #1e1e1e;
-            padding: 20px;
+            padding: 25px;
             border-radius: 10px;
             box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
             text-align: justify;
             line-height: 1.6;
-            overflow-y: auto; /* Scroll si el mensaje es largo */
-            max-height: 90vh; /* Evita que ocupe toda la pantalla */
-            display: flex;
-            flex-direction: column;
-            align-items: center; /* Centra el contenido */
+            overflow-y: auto;
+            max-height: 90vh;
         }
         h1 {
             color: #00ffcc;
             text-align: center;
-            width: 100%;
         }
         p {
-            width: 100%;
+            margin-bottom: 15px;
+        }
+        b {
+            color: #00ffcc;
+        }
+        i {
+            color: #bbb;
         }
     </style>
 </head>
@@ -630,7 +635,6 @@ ssh - clave raíz @backfire .htb
             Así que, amigo/a, <b>haz lo que tu corazón y tu mente te dicten.</b> Sé feliz, porque aunque soy un completo desconocido, <b>créeme que estaré inmensamente orgulloso de ti.</b>
         </p>
     </div>
-
 
 </body>
 </html>
