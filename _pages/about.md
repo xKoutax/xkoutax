@@ -3,6 +3,8 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Soy Tätsú_ or vyntatsu, un principiante en el fascinante mundo de la ciberseguridad. Mi interés por la tecnología y la seguridad digital comenzó hace poco, pero ya estoy completamente enfocado en aprender y compartir mis conocimientos con otros que, como yo, están dando sus primeros pasos en este campo.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Aunque mi camino está en sus inicios, me esfuerzo por entender los fundamentos de la ciberseguridad y cómo proteger nuestros datos en un mundo cada vez más digital. Mi objetivo es aprender de manera práctica, aplicando herramientas y conceptos esenciales, y al mismo tiempo, ayudar a quienes también están empezando, compartiendo mis experiencias y conocimientos a través de cursos y contenido educativo.
+
+Creo firmemente que todos podemos aprender y crecer en el campo de la ciberseguridad, y mi meta es crear una comunidad donde los novatos se sientan acompañados y apoyados mientras desarrollan sus habilidades.
