@@ -142,7 +142,7 @@ index 9d1c21f..59d350d 100644
 +   if err = t.Server.Engine.Run(Host+":"+Port); err != nil {
       logger.Error("Failed to start websocket: " + err.Error())
     }
-<pre><code>
+</code></pre>
 <p>Busque cuidadosamente el CVE de Havoc disponible en todos los navegadores que puedan soportar nuestro procedimiento..</p>
 <p>Podemos encontrar que el creador de la máquina Chebuya también tenía un repositorio en el exploit Havoc. Al ejecutar el archivo del exploit, verá que la conexión está cerrada..</p>
 <p>También podemos encontrar otro repositorio sobre la vulnerabilidad Havoc..</p>
