@@ -464,7 +464,7 @@ ssh-keygen
 <p>Puedes encontrar un archivo txt que contiene información sobre el otro usuario “Sergej”..</p> 
 -----------
 <p>Podemos usar netstat para encontrar los puertos de escucha y de actividad en la máquina. Podemos encontrar los puertos 5000 y 7096 que son interesantes..</p> 
-https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20224222.png?raw=true
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20224222.png?raw=true" alt="Captura de pantalla">
 ---------------------------------------------------
 <p>Salga de la terminal actual. En el siguiente paso, utilizaremos el método Port Forwarding. Ejecute el siguiente comando en una nueva terminal..</p>
 <pre><code>
@@ -552,16 +552,78 @@ ssh - clave raíz @backfire .htb
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20234838.png?raw=true" alt="Captura de pantalla">
 <p></p>
 
+<title>Mensaje de Tätsú</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            width: 40%; /* Ajusta el ancho de la columna */
+            max-width: 600px; /* Máximo ancho para mayor legibilidad */
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            text-align: justify;
+            line-height: 1.6;
+            overflow-y: auto; /* Scroll si el mensaje es largo */
+            max-height: 90vh; /* Evita que ocupe toda la pantalla */
+        }
+        h1 {
+            color: #00ffcc;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mensaje de Tätsú</h1>
+        <p>
+            Si has llegado hasta aquí, quiero <b>felicitarte y agradecerte</b>. Sé que este camino en la ciberseguridad puede parecer un laberinto oscuro, especialmente cuando eres principiante. 
+            Habrá días en los que sentirás que todo te sale mal, que las piezas no encajan, pero quiero que recuerdes algo muy importante: <b>¡nunca estás solo en este viaje!</b>
+        </p>
+        <p>
+            Cuando sientas que el cansancio y la frustración te invaden, apaga tu computadora, da un paso atrás y acércate a las personas que te quieren. Conéctate con tu familia, tus amigos, quítate un poco de estrés y recarga tu energía. 
+            Luego, cuando regreses, verás cómo todo empieza a fluir como por arte de magia.
+        </p>
+        <p>
+            No dejes que un mal día o una nube gris te haga olvidar lo increíble que eres. Si algún día te sientes demasiado triste, no dudes en escribirme. Aquí estaré, <b>Tätsú</b>, dispuesto a escuchar, a conversar, a apoyarte y a buscar alternativas. 
+        </p>
+        <p>
+            Podemos hablar de <b>pentesting</b>, de las maravillas de la ciberseguridad, o simplemente compartir un momento juntos. Lo importante es que nunca abandones tu sueño, porque recuerdo una vez haber escuchado algo que se quedó grabado en mí: 
+            <i>"Lo único imposible es aquello que no intentas."</i>
+        </p>
+        <p>
+            Aunque muchos duden y se rían, lo que realmente importa es que sigas adelante, porque si tienes un sueño, <b>nada ni nadie podrá frenarlo.</b>
+        </p>
+        <p>
+            La vida es un viaje lleno de sorpresas y de momentos que nos enseñan algo nuevo. A veces, no valoramos lo que tenemos, ya sea por ideologías diferentes o por la carrera que seguimos, 
+            pero quiero que tú, que estás leyendo esto, <b>seas diferente.</b>
+        </p>
+        <p>
+            Valora cada momento con tu familia, con tus amigos, porque como dijo una persona muy especial que pasó por mi vida:  
+            <i>"Disfruta del presente, porque el futuro es incierto."</i>
+        </p>
+        <p>
+            Si tienes un sueño, <b>persíguelo con todo tu ser.</b> Si quieres amar, no dudes, <b>ama sin reservas</b>, porque no sabes cuánto tiempo te queda para hacerlo. 
+            Atrévete a ser feliz. No pierdas la oportunidad de encontrar lo que realmente te llena, de buscar la felicidad en cada rincón de tu vida.  
+        </p>
+        <p>
+            En mi caso, he dejado ir muchas cosas, pero si pudiera hackear el tiempo, lo cambiaría. Sin embargo, la vida no funciona así, Tristemente. 
+        </p>
+        <p>
+            Así que, amigo/a, <b>haz lo que tu corazón y tu mente te dicten.</b> Sé feliz, porque aunque soy un completo desconocido, <b>créeme que estaré inmensamente orgulloso de ti.</b>
+        </p>
+    </div>
 
 
-<pre><code>
-Si has llegado hasta aquí, quiero felicitarte y agradecerte. Sé que este camino en la ciberseguridad puede parecer un laberinto oscuro, especialmente cuando eres principiante. Habrá días en los que sentirás que todo te sale mal, que las piezas no encajan, pero quiero que recuerdes algo muy importante: ¡nunca estás solo en este viaje! Cuando sientas que el cansancio y la frustración te invaden, apaga tu computadora, da un paso atrás y acércate a las personas que te quieren. Conéctate con tu familia, tus amigos, quítate un poco de estrés y recarga tu energía. Luego, cuando regreses, verás cómo todo empieza a fluir como por arte de magia.
-
-No dejes que un mal día o una nube gris te haga olvidar lo increíble que eres. Si algún día te sientes demasiado triste, no dudes en escribirme. Aquí estaré, Tätsú, dispuesto a escuchar, a conversar, a apoyarte y a buscar alternativas. Podemos hablar de pentesting, de las maravillas de la ciberseguridad, o simplemente compartir un momento juntos. Lo importante es que nunca abandones tu sueño, porque recuerdo una vez haber escuchado algo que se quedó grabado en mí: "Lo único imposible es aquello que no intentas." Aunque muchos duden y se rían, lo que realmente importa es que sigas adelante, porque si tienes un sueño, nada ni nadie podrá frenarlo.
-
-La vida es un viaje lleno de sorpresas y de momentos que nos enseñan algo nuevo. A veces, no valoramos lo que tenemos, ya sea por ideologías diferentes o por la carrera que seguimos, pero quiero que tú, que estás leyendo esto, seas diferente. Valora cada momento con tu familia, con tus amigos, porque como dijo una persona muy especial que pasó por mi vida, "Disfruta del presente, porque el futuro es incierto."
-
-Si tienes un sueño, persíguelo con todo tu ser. Si quieres amar, no dudes, ama sin reservas, porque no sabes cuánto tiempo te queda para hacerlo. Atrévete a ser feliz. No pierdas la oportunidad de encontrar lo que realmente te llena, de buscar la felicidad en cada rincón de tu vida. En mi caso, he dejado ir muchas cosas, pero si pudiera hackear el tiempo, lo cambiaría. Sin embargo, la vida no funciona así, jejeje. Así que, amigo/a, haz lo que tu corazón y tu mente te dicten. Sé feliz, porque aunque soy un completo desconocido, créeme que estaré inmensamente orgulloso de ti.
-</code></pre>
 </body>
 </html>
