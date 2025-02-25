@@ -47,9 +47,9 @@ tags:
 <p>Lo primero que debemos hacer es la fase de reconocimiento con Nmap.</p>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20205608.png?raw=true" alt="Captura de pantalla">
 <p>Luego del reconocimiento, podemos notar que hay 3 puertos disponibles, pero el que me llama la atención es el puerto 8000.</p>
---------------------------------------------------------------------------------------------------------------------------------
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20210021.png?raw=true" alt="Captura de pantalla">
 <p>Como lo pensé, había una página alojada. Lo que me da curiosidad es que, como podemos ver, hay 2 archivos, los cuales procederé a descargar.</p>
---------------------------------------------------------------------------------------------------------------------------------
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20210209.png?raw=true" alt="Captura de pantalla">
 <p>Estos archivos me dan información valiosa:</p>
 --------------------------------------------------------------------------------------------------------------------------------
 <pre><code>
