@@ -45,13 +45,13 @@ tags:
 <img src="ruta_de_la_imagen.jpg" alt="BackFiere" />
 
 <p>Lo primero que debemos hacer es la fase de reconocimiento con Nmap.</p>
-
+--------------------------------------------------------------------------------------------------------------------------------
 <p>Luego del reconocimiento, podemos notar que hay 3 puertos disponibles, pero el que me llama la atención es el puerto 8000.</p>
-
+--------------------------------------------------------------------------------------------------------------------------------
 <p>Como lo pensé, había una página alojada. Lo que me da curiosidad es que, como podemos ver, hay 2 archivos, los cuales procederé a descargar.</p>
-
+--------------------------------------------------------------------------------------------------------------------------------
 <p>Estos archivos me dan información valiosa:</p>
-
+--------------------------------------------------------------------------------------------------------------------------------
 <pre><code>
 havoc.yaotl
 
