@@ -551,7 +551,7 @@ ssh - clave raíz @backfire .htb
 </code></pre>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20234838.png?raw=true" alt="Captura de pantalla">
 <p></p>
-<title>Mensaje de Tätsú</title>
+<h1>Para Ti</h1>
 <p>
             Si has llegado hasta aquí, quiero <b>felicitarte y agradecerte</b>. Sé que este camino en la ciberseguridad puede parecer un laberinto oscuro, especialmente cuando eres principiante. 
             Habrá días en los que sentirás que todo te sale mal, que las piezas no encajan, pero quiero que recuerdes algo muy importante: <b>¡nunca estás solo en este viaje!</b>
