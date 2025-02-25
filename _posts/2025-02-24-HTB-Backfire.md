@@ -552,9 +552,7 @@ ssh - clave raíz @backfire .htb
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-24%20234838.png?raw=true" alt="Captura de pantalla">
 <p></p>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Mensaje de Tätsú</title>
     <style>
         body {
