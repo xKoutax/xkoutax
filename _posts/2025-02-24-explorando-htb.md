@@ -2,7 +2,8 @@
 title: "Explorando HTB con Kali Linux"
 date: 2025-02-24T15:34:30-04:00
 categories:
-  - blog,post
+  - blog
+  - posts
 tags:
   - Pentesting
   - update
