@@ -195,7 +195,7 @@ https://inloop.github.io/sqlite-viewer/
 <pre><code>
 python3 grafana2hashcat.py hash.txt             
 </code></pre>
-
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20174036.png?raw=true" alt="Captura de pantalla">
 
 
 
