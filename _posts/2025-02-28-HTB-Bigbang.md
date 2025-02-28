@@ -81,9 +81,40 @@ export WPSCAN_API_TOKEN="TU KEY"
 <pre><code>
  wpscan --url http://blog.bigbang.htb                    
 </code></pre>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-26%20110857.png?raw=true" alt="Captura de pantalla">
+<p>Encontramos varias vulneravilidades, necesitamos mas informacion, recordemos que tenemos un login, intentemos buscar usuaio.</p>
+<pre><code>
+wpscan --url http://blog.bigbang.htb -v -e u vp ap --random-user-agent dbe vt cb g4f9IlTtUUIxY4ZmJLBJSvK4vEzt5wVT18eON0fqPmw                 
+</code></pre>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-26%20111548.png?raw=true" alt="Captura de pantalla">
 
 
-<p>.</p>
+
+
+<pre><code>
+                 
+</code></pre>
+
+
+
+
+
+
+
+
+
+
+<pre><code>
+                 
+</code></pre>
+
+
+
+
+
+
+
+
 <p>.</p>
 <p>.</p>
 <p>.</p>
