@@ -1,4 +1,4 @@
-title: "HTB - Bigbang"
+title: "HTB-Bigbang"
 date: 2025-02-28T12:45:00-04:00
 categories:
   - HackTheBox
@@ -42,7 +42,7 @@ tags:
 
 <!-- Espacio para la foto -->
 <div style="text-align: center; margin: 20px;">
-  <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-25%20021332.png?raw=true" 
+  <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20022200.png?raw=true" 
        alt="Captura de pantalla" 
        style="max-width: 100%; height: auto; border-radius: 8px;" />
   <p>Bigbang</p>
