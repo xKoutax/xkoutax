@@ -49,6 +49,112 @@ tags:
        style="max-width: 100%; height: auto; border-radius: 8px;" />
   <p>Bigbang</p>
 </div>
+<p>Comenzamos con el renococimiento de puertos Con nmap.</p>
+<pre><code>
+  sudo nmap -p- -sS --open --min-rate 5000 -vvv -n -Pn 192.168.100.52 -oG Allports
+</code></pre>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20130555.png?raw=true" alt="Captura de pantalla">
+<p>Hacemos un analisis mas profundo en los puertos.</p>
+<pre><code>
+   sudo nmap -p22,8000,65535 -sCV -Pn 10.10.14.52
+</code></pre>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-25%20225958.png?raw=true" alt="Captura de pantalla">
+<p>Como podemos ver hay un sitio alojado en el puerto 80, Desde ya esta maquina es un dolor de cabeza no,nos permite acceder al sitio, para solucionarlo usaremos el siguiente comando.</p>
+<pre><code>
+   echo "10.10.11.52 blog.bigbang.htb" | sudo tee -a /etc/hosts
+</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
