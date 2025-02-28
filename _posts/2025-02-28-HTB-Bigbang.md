@@ -13,7 +13,7 @@ tags:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTB - Bigban</title>
+    <title>HTB - Bigbang</title>
     <style>
         body {
             font-family: Arial, sans-serif;
