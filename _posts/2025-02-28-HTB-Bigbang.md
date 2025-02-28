@@ -208,7 +208,8 @@ sudo hashcat -m 10900 hashcat_hashes.txt --wordlist /usr/share/wordlists/rockyou
 bigbang
 ssh developer@blog.bigbang.htb
 </code></pre>
-
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20180158.png?raw=true" alt="Captura de pantalla">
+<p>Aquie tenemos algo parecido a lo que hicimos con el usurio anterior cd /android/ satellite-app.apk</p>
 
 
 <pre><code>
