@@ -187,17 +187,13 @@ netstat -tulnp
 https://inloop.github.io/sqlite-viewer/             
 </code></pre>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-27%20232844.png?raw=true" alt="Captura de pantalla">
-
-
+<p>copiamos las cadenas de password y salt, creamos un archivo hash.txt procedemos a clonar la herramienta grafana2hashcat.</p>
 <pre><code>
-             
+ https://github.com/iamaldi/grafana2hashcat        
 </code></pre>
-
-
-
-
+<p>Vamos a usarla</p>
 <pre><code>
-             
+python3 grafana2hashcat.py hash.txt             
 </code></pre>
 
 
