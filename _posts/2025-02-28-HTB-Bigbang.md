@@ -173,9 +173,8 @@ netstat -tulnp
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20165835.png?raw=true" alt="Captura de pantalla">
 <p>Reenvía el puerto 9090 y 3000, en el segundo tenemos grafana:.</p>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-27%20214259.png?raw=true" alt="Captura de pantalla">
+<p>No es posible ingresar a la web con la informacion que tenemos</p>
 
-
-<p>.</p>
 
 
 
