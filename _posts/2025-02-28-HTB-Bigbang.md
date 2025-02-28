@@ -204,11 +204,9 @@ sudo hashcat -m 10900 hashcat_hashes.txt --wordlist /usr/share/wordlists/rockyou
              
 </code></pre>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20004652.png?raw=true" alt="Captura de pantalla">
-
-
-
 <pre><code>
-             
+bigbang
+ssh developer@blog.bigbang.htb
 </code></pre>
 
 
