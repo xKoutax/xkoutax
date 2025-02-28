@@ -5,6 +5,7 @@ categories:
   - HackTheBox
 tags:
   - pentesting
+  - medium
 ---
 
 
