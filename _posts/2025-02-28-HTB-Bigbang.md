@@ -63,9 +63,12 @@ tags:
 <pre><code>
    echo "10.10.11.52 blog.bigbang.htb" | sudo tee -a /etc/hosts
 </code></pre>
-
-
-
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20144525.png?raw=true" alt="Captura de pantalla">
+<p>Una vez que estamos en el sitio podemos por el codigo fuente que el scripts es muy amplio, para hacer mas rapido la busqueda de directorios usaremos Gobuster:</p>
+<pre><code>
+    gobuster dir -u "http://blog.bigbang.htb" -w /usr/share/wordlists/seclists/Discovery/Web-Content/common.txt                                 
+</code></pre>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-25%20230650.png?raw=true" alt="Captura de pantalla">
 
 
 
