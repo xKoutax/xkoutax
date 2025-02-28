@@ -1,7 +1,6 @@
 ---
 title: "HTB - Bigbang"
 date: 2025-02-28T12:45:00-04:00
-
 categories:
   - HackTheBox
 
