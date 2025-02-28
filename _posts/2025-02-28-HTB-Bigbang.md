@@ -164,7 +164,7 @@ john --wordlist=/usr/share/wordlists/rockyou.txt shawking_hash
 </code></pre>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-27%20212335.png?raw=true" alt="Captura de pantalla">
 <h1>USUARIO</h1>
-
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20164834.png?raw=true" alt="Captura de pantalla">
 
 <pre><code>
              
