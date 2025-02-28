@@ -120,8 +120,8 @@ pip install pwntools
 <p>Waooooooooooooooo, Accedimos.</p>
 
 <pre><code>
-hostname -
-  cd ..I
+hostname - I
+  cd ..
  cat wp-config.php
      
 </code></pre>
