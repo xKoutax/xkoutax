@@ -158,8 +158,11 @@ para que corra el progama
 php test2.php
  </code></pre>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-27%20210343.png?raw=true" alt="Captura de pantalla">
-
-
+<p>Usaremos john para descubrir el hash.</p>
+<pre><code>
+john --wordlist=/usr/share/wordlists/rockyou.txt shawking_hash        
+</code></pre>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-27%20212335.png?raw=true" alt="Captura de pantalla">
 
 
 
