@@ -71,9 +71,18 @@ tags:
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-25%20230650.png?raw=true" alt="Captura de pantalla">
 <p>Tenemos varios dominios de Worpress, por lo tanto eh descargado wappalyzer, para ver que version esta alojada en el sitio.</p>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20150033.png?raw=true" alt="Captura de pantalla">
-<p>.</p>
-<p>.</p>
-<p>.</p>
+<p>interesante tenemos una version 6.5.4</p>
+<p>vamos hacer un analisis mas aprofunidad,esperando encontrar vulneravilidades, antes de esto necesitamos tener una API_TOKEN .</p>
+<pre><code>
+https://wpscan.com       
+export WPSCAN_API_TOKEN="TU KEY"
+</code></pre>
+<p>Ahora ejecutaremos la Herramienta WPSCAN.</p>
+<pre><code>
+ wpscan --url http://blog.bigbang.htb                    
+</code></pre>
+
+
 <p>.</p>
 <p>.</p>
 <p>.</p>
