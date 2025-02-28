@@ -157,7 +157,7 @@ hostname -
 para que corra el progama 
 php test2.php
  </code></pre>
-
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-27%20210343.png?raw=true" alt="Captura de pantalla">
 
 
 
