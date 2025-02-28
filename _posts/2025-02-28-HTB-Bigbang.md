@@ -117,14 +117,16 @@ pip install pwntools
 </code></pre>
 <p>Ahora podemos correrlo.</p>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20160821.png?raw=true" alt="Captura de pantalla">
-
-
+<p>Waooooooooooooooo, Accedimos.</p>
 
 <pre><code>
-             
+hostname -
+  cd ..I
+ cat wp-config.php
+     
 </code></pre>
-
-
+<p>Nos muestar informacion interesante.</p>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20161445.png?raw=true" alt="Captura de pantalla">
  
 <pre><code>
              
