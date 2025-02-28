@@ -165,6 +165,20 @@ john --wordlist=/usr/share/wordlists/rockyou.txt shawking_hash
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-27%20212335.png?raw=true" alt="Captura de pantalla">
 <h1>USUARIO</h1>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20164834.png?raw=true" alt="Captura de pantalla">
+<h1>Escalacion de privilegio</h1>
+<p>Ahora vamos a enlistar los puertos abierto.</p>
+<pre><code>
+netstat -tulnp         
+</code></pre>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20165835.png?raw=true" alt="Captura de pantalla">
+<p>.</p>
+<p>.</p>
+
+
+
+
+
+
 
 <pre><code>
              
