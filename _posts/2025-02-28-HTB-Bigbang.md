@@ -196,15 +196,14 @@ https://inloop.github.io/sqlite-viewer/
 python3 grafana2hashcat.py hash.txt             
 </code></pre>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20174036.png?raw=true" alt="Captura de pantalla">
-
-
-
-
-
+<p>Ahora ejecutamos el codigo que nos recomienda</p>
+<p>Advertencia</p>
+<p>Antes de ejecutar este codigo cierra las aplicaciones que la tengas abierta inecesariamnete, ya que este codigo hace forzar un poco la cpu, tambien tener el almacenamiento necesario para usarlo.</p>
 <pre><code>
+sudo hashcat -m 10900 hashcat_hashes.txt --wordlist /usr/share/wordlists/rockyou.txt
              
 </code></pre>
-
+<img src=https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20004652.png?raw=true"" alt="Captura de pantalla">
 
 
 
