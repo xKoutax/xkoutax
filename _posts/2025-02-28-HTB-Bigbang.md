@@ -231,8 +231,8 @@ jadx-gui
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20190752.png?raw=true" alt="Captura de pantalla">
 <p>algunas credenciales. El punto de conexión responde con un token web JSON , que probablemente se use para la autenticación</p>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20014916.png?raw=true" alt="Captura de pantalla">
-
-<p>.</p>
+<p>Podemos confirmar que está allí en el puerto Locahost 9090 para esa aplicación</p>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20015145.png?raw=true" alt="Captura de pantalla">
 <p>.</p>
 <p>.</p>
 <p>.</p>
