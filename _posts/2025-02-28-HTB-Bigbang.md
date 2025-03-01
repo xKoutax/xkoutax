@@ -281,12 +281,6 @@ id
 <p>No importa cuántas veces tropieces, lo que realmente importa es que te levantes una vez más. No importa si el mundo no entiende tu lucha, lo que cuenta es que sigas adelante, que sigas soñando, que sigas construyendo la vida que deseas. Porque puedes. Porque lo mereces.</p>
 <p>Y si alguna vez sientes que no puedes más, que el peso es demasiado grande… recuerda esto: no estás solo. Aquí hay alguien que cree en ti. Yo creo en ti. 💙✨</p>
 <p>Sigue soñando, sigue luchando. El mundo necesita tu luz. 🌟</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-
-
 
 </body>
 </html>
