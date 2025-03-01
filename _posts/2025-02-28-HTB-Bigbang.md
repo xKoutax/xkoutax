@@ -229,7 +229,9 @@ jadx-gui
 </code></pre>
 <p>¡Abre esa satellite-app.apk en esto y verifica que haya una parte interesante! Vemos que la aplicación está en el puerto 9090 Rastreando hacia atrás la función MainActivity, descubrimos un método Login que usa un oyente personalizado. Al examinar el agente de escucha, encontramos métodos que interactúan con un punto final enviando</p>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20190752.png?raw=true" alt="Captura de pantalla">
-<p>.</p>
+<p>algunas credenciales. El punto de conexión responde con un token web JSON , que probablemente se use para la autenticación</p>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20014916.png?raw=true" alt="Captura de pantalla">
+
 <p>.</p>
 <p>.</p>
 <p>.</p>
