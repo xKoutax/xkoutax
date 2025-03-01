@@ -269,16 +269,17 @@ id
 </code></pre>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20195155.png?raw=true" alt="Captura de pantalla">
 
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
-<p>.</p>
+<h1>Para Ti</h1>
+<p>🌟 ¡Hola! 🌟</p>
+
+<p>Antes que nada, quiero que respires profundo y tomes este momento solo para ti. Quiero hablarte desde el corazón, porque a veces, entre el ruido del mundo, olvidamos lo más importante: lo valiosos que somos</p>
+<p>Si nadie te lo ha dicho hoy, permíteme ser la voz que necesitas escuchar: estoy orgulloso de ti. No solo por lo que has logrado, sino por todo lo que has superado.</p>
+<p>Por cada día en el que quisiste rendirte y aún así seguiste adelante. Por cada lágrima que secaste en silencio, por cada batalla que libraste en tu mente y aún así, aquí estás… sigues de pie.</p>
+<p>La vida no siempre es fácil, lo sé. Hay días grises, momentos de duda, silencios que pesan más que mil palabras. Pero déjame recordarte algo: dentro de ti hay una luz inmensa, una fuerza que ningún obstáculo podrá apagar</p>
+<p>Tienes sueños, tienes pasiones, tienes un propósito, aunque a veces sientas que el camino se vuelve borroso. No dejes de caminar. No dejes de creer en ti.</p>
+<p>No importa cuántas veces tropieces, lo que realmente importa es que te levantes una vez más. No importa si el mundo no entiende tu lucha, lo que cuenta es que sigas adelante, que sigas soñando, que sigas construyendo la vida que deseas. Porque puedes. Porque lo mereces.</p>
+<p>Y si alguna vez sientes que no puedes más, que el peso es demasiado grande… recuerda esto: no estás solo. Aquí hay alguien que cree en ti. Yo creo en ti. 💙✨</p>
+<p>Sigue soñando, sigue luchando. El mundo necesita tu luz. 🌟</p>
 <p>.</p>
 <p>.</p>
 <p>.</p>
