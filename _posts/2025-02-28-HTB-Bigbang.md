@@ -235,10 +235,17 @@ jadx-gui
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20015145.png?raw=true" alt="Captura de pantalla">
 <p>Encontramos un punto final que proporciona un JWT y otro que acepta comandos. Nuestro objetivo es averiguar cómo enviar un comando a este segundo punto de conexión. A partir de la funcionalidad de inicio de sesión, ya entendemos cómo interactuar con el punto final de inicio de sesión. A medida que exploramos más a fondo el código fuente, nos encontramos con la función b bajo q0 , que parece relevante para nuestros próximos pasos</p>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20015512.png?raw=true" alt="Captura de pantalla">
+<p>observamos que la función requiere un archivo de entrada y un archivo de salida, pero tenemos control sobre el archivo de salida. La función crea un archivo basado en el nombre del archivo de salida que proporcionamos. Esto nos da la oportunidad de intentar la inyección de comandos manipulando el nombre del archivo de salida</p>
+<p>Lo primero fue obtener aut TOKEN</p>
+<pre><code>
+ curl -X POST http://127.0.0.1:9090/login -H "Content-Type: application/json" -d '{"username":"developer","password":"bigbang"}' -v    
+</code></pre>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/images/Captura%20de%20pantalla%202025-02-28%20015808.png?raw=true" alt="Captura de pantalla">
 
+<pre><code>
+     
+</code></pre>
 
-<p>.</p>
-<p>.</p>
 <p>.</p>
 <p>.</p>
 <p>.</p>
