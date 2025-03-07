@@ -72,8 +72,8 @@ tags:
         
         <p><strong>🎓 Soy un estudiante de ciberseguridad con una gran pasión por el hacking ético. Mi objetivo es especializarme en <span class="highlight">pentesting</span> y compartir mis conocimientos con la comunidad.</strong></p>
         
-        <!-- Espacio para la foto -->
-        <img src="tu_foto.jpg" alt="Foto de Tätsú_ (Vyntr1x_)">
+       
+
         
         <h3>🚀 ¿Qué encontrarás aquí?</h3>
         <ul>
