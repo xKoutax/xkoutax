@@ -103,4 +103,8 @@ tags:
 <p>Podimos accerder, veo que hay algo que dice wallet me causa curiosidad</p>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20012644.png?raw=true" alt="Captura de pantalla">
 <p>Es un archivo corrupto</p>
-
+<h1>Escala de privilegio</h1>
+<pre><code>
+  sudo -l
+</code></pre>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20024959.png?raw=true" alt="Captura de pantalla">
