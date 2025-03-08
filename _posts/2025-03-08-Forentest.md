@@ -67,3 +67,9 @@ tags:
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20004030.png?raw=true" alt="Captura de pantalla">
 <p>Desencriptamos el codigo y nos muestra un mensaje.</p>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20004102.png?raw=true" alt="Captura de pantalla">
+<p>Hmmmm, cambio el usuairo el que nuestro cliente tenia era juan.perez y ahora solo es perez.</p>
+<p>con esta informacion se em ocurre hacer un ataque de fuerza bruta.</p>
+<pre><code>
+   hydra -l perez -P mini_rockyou.txt ssh://192.168.100.64 -t 4
+</code></pre>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20005404.png?raw=true" alt="Captura de pantalla">
