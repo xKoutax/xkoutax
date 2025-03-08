@@ -60,3 +60,5 @@ tags:
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20003835.png?raw=true" alt="Captura de pantalla">
 --------------------------------------------------------------------------------------------------------------
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20003840.png?raw=true" alt="Captura de pantalla">
+<p>El hacker accedio y realizo la tranferencia, no solo eso cambio la claves de su vicitima.</p>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20003854.png?raw=true" alt="Captura de pantalla">
