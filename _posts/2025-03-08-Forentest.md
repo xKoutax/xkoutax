@@ -108,3 +108,24 @@ tags:
   sudo -l
 </code></pre>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20024959.png?raw=true" alt="Captura de pantalla">
+<p>investigamos un poco</p>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20012738.png?raw=true" alt="Captura de pantalla">
+------------------------------------------------------------------------------------------------------------------------------
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20012853.png?raw=true" alt="Captura de pantalla">
+<p>al intentar exploatr la vulneravilidad nos saldra un error el cual lo arreglaremos con este comando</p>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20013006.png?raw=true" alt="Captura de pantalla">
+<pre><code>
+ export TERM=xterm
+</code></pre>
+<p>ejecutamos nuestro comando</p>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20013119.png?raw=true" alt="Captura de pantalla">
+<p>Hemos tomado el contro del disposito del atactante </p>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20013359.png?raw=true" alt="Captura de pantalla">
+<p>Veo nuevamnete un archivo txt llamado wallet, voy a investigar</p>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20013346.png?raw=true" alt="Captura de pantalla">
+<p>al ingresar me da un dominio web ire a ver que es</p>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20013429.png?raw=true" alt="Captura de pantalla">
+<p>Es la wallet del hacker :0 </p>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20013439.png?raw=true" alt="Captura de pantalla">
+<p>Ahora logramos recuperar los fondos hackeado y enviado a su dueño</p>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20013447.png?raw=true" alt="Captura de pantalla">
