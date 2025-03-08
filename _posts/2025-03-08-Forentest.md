@@ -90,3 +90,8 @@ tags:
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20010405.png?raw=true" alt="Captura de pantalla">
 <p>Dentro de la imagen habia un directorio y un mensaje extraño</p>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20010517.png?raw=true" alt="Captura de pantalla">
+<p>Hemos encontrado una web por donde este tipo ah ido moviendo el dinero</p>
+<p>Vamos analizar mas a profunidad esta web</p>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20010532.png?raw=true" alt="Captura de pantalla">
+<p>En el codigo fuente tenemos una cadena de texto encriptada...</p>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20010626.png?raw=true" alt="Captura de pantalla">
