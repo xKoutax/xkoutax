@@ -65,3 +65,5 @@ tags:
 <p>Procedemos a buscar pista que nos puedena llevar a la detencion de este tipo.</p>
 <p>verificaremos el codigo fuente a ver si no dejo algo.</p>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20004030.png?raw=true" alt="Captura de pantalla">
+<p>Desencriptamos el codigo y nos muestra un mensaje.</p>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20004102.png?raw=true" alt="Captura de pantalla">
