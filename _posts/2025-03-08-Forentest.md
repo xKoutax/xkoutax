@@ -82,3 +82,5 @@ tags:
 <p>Ahora tenemos mas informacion, podemos ver un id diferente, la cual puede tratarse del hacker</p>
 <p>Hay un archivo pdf y un archivo png, lo enviare a mi escritorio para analizarlos</p>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20010023.png?raw=true" alt="Captura de pantalla">
+<p>PDF</p>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20010150.png?raw=true" alt="Captura de pantalla">
