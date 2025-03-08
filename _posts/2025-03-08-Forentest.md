@@ -88,3 +88,5 @@ tags:
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20010226.png?raw=true" alt="Captura de pantalla">
 <p>El archivo PDF Tenia historial de trasferencia, pero nada importante me causo curiosidad la imagen la analizare un poco mas a profundidad</p>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20010405.png?raw=true" alt="Captura de pantalla">
+<p>Dentro de la imagen habia un directorio y un mensaje extraño</p>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20010517.png?raw=true" alt="Captura de pantalla">
