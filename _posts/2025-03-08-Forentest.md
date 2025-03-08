@@ -99,3 +99,4 @@ tags:
 <pre><code>
   ssh tatsu_@192.168.100.64 
 </code></pre>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20010744.png?raw=true" alt="Captura de pantalla">
