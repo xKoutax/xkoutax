@@ -95,3 +95,7 @@ tags:
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20010532.png?raw=true" alt="Captura de pantalla">
 <p>En el codigo fuente tenemos una cadena de texto encriptada...</p>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20010626.png?raw=true" alt="Captura de pantalla">
+<p>Acabamos de tener una combinacion, esto me hace pensar que es una contraseña intenatre entrar al ordenador del hacker</p>
+<pre><code>
+  ssh tatsu_@192.168.100.64 
+</code></pre>
