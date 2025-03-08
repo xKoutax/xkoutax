@@ -39,3 +39,9 @@ tags:
 <body>
 
 <h1>Acompañame en este nuevo reto Forentest</h1>
+<!-- Espacio para la foto -->
+<div style="text-align: center; margin: 20px;">
+  <img src="https://github.com/user-attachments/assets/41c40067-7025-4eac-986c-f80efe6280a1=true" 
+       alt="Captura de pantalla" 
+       style="max-width: 100%; height: auto; border-radius: 8px;" />
+  <p>Forentest</p>
