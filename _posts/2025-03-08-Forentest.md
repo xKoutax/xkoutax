@@ -68,8 +68,15 @@ tags:
 <p>Desencriptamos el codigo y nos muestra un mensaje.</p>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20004102.png?raw=true" alt="Captura de pantalla">
 <p>Hmmmm, cambio el usuairo el que nuestro cliente tenia era juan.perez y ahora solo es perez.</p>
-<p>con esta informacion se em ocurre hacer un ataque de fuerza bruta.</p>
+<p>con esta informacion se me ocurre hacer un ataque de fuerza bruta.</p>
 <pre><code>
    hydra -l perez -P mini_rockyou.txt ssh://192.168.100.64 -t 4
 </code></pre>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20005404.png?raw=true" alt="Captura de pantalla">
+<p>Genial.</p>
+<p>tenemos las credenciales completas intentaremos acceder.</p>
+<pre><code>
+  ssh perez@192.168.100.64 
+</code></pre>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20005453.png?raw=true" alt="Captura de pantalla">
+<p>Ahora tenemos mas informacion, podemos ver un id diferente, la cual puede tratarse del hacker</p>
