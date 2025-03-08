@@ -58,3 +58,5 @@ tags:
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20003701.png?raw=true" alt="Captura de pantalla">
 <p>Ingresamos a un sitio donde nos muestras las tarnferencia que el hacker realizo.</p>
 <img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20003835.png?raw=true" alt="Captura de pantalla">
+--------------------------------------------------------------------------------------------------------------
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20003840.png?raw=true" alt="Captura de pantalla">
