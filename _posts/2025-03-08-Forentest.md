@@ -45,3 +45,15 @@ tags:
        alt="Captura de pantalla" 
        style="max-width: 100%; height: auto; border-radius: 8px;" />
   <p>Forentest</p>
+  </div>
+<p>Comenzamos con el renococimiento de puertos Con nmap.</p>
+<pre><code>
+  sudo nmap -p- -sS --open --min-rate 5000 -vvv -n -Pn 192.168.100.64 -oG Allports
+</code></pre>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20003654.png?raw=true" alt="Captura de pantalla">
+<p>Hacemos un analisis mas profundo en los puertos.</p>
+<pre><code>
+   sudo nmap -p22,8000,65535 -sCV -Pn 192.168.100.64
+</code></pre>
+<img src="https://github.com/xKoutax/xkoutax/blob/master/assets/Captura%20de%20pantalla%202025-03-08%20003835.png?raw=true" alt="Captura de pantalla">
+<p>Ingresamos a un sitio donde nos muestras las tarnferencia que el hacker realizo.</p>
